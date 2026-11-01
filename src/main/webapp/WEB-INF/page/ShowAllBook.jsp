@@ -15,7 +15,7 @@
 
 
 <c:forEach var="book" items="${books}">
-    <h3>${book.title}</h3>
+    <h3>${book.title} <a href="/Campus_Library_Manager_spring_war/books/details/${book.id}">detailas</a> </h3>
 </c:forEach>
 
 

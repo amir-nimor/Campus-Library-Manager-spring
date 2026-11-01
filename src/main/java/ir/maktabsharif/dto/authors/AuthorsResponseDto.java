@@ -14,4 +14,11 @@ public class AuthorsResponseDto {
 
     private String name;
 
+    @Override
+    public String toString() {
+        return "AuthorsResponseDto{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

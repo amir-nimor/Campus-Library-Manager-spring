@@ -17,4 +17,12 @@ public class BookResponseDto {
 
     private Integer authorId;
 
+    @Override
+    public String toString() {
+        return "BookResponseDto{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", authorId=" + authorId +
+                '}';
+    }
 }
