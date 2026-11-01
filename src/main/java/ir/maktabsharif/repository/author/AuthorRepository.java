@@ -1,4 +1,7 @@
 package ir.maktabsharif.repository.author;
 
-public interface AuthorRepository {
+import ir.maktabsharif.dao.AuthorDao;
+import ir.maktabsharif.repository.base.BaseRepository;
+
+public interface AuthorRepository extends BaseRepository<AuthorDao,Integer> {
 }

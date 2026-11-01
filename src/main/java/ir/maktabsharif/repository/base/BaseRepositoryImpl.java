@@ -1,13 +1,17 @@
 package ir.maktabsharif.repository.base;
 
-import ir.maktabsharif.dao.BaseModel;
+
+
+import ir.maktabsharif.dao.baseMode.BaseModel;
 import ir.maktabsharif.exception.HibernateException;
 import ir.maktabsharif.exception.RepositoryException;
 import ir.maktabsharif.util.HibernateUtil;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Optional;
 
+@Component
 public abstract class BaseRepositoryImpl<T extends BaseModel<ID>, ID extends Number> implements BaseRepository<T, ID> {
 
     private Class<T> entity;
