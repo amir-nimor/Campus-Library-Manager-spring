@@ -6,6 +6,7 @@ import ir.maktabsharif.exception.BuisenesException;
 import ir.maktabsharif.exception.RepositoryException;
 import ir.maktabsharif.exception.ValidationExceptio;
 import ir.maktabsharif.repository.base.BaseRepository;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
